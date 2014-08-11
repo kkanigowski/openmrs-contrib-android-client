@@ -25,7 +25,7 @@ public class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
     public static List<ModuleInfo>  getPage(int position) {
         int from = position * ITEMS_PER_PAGE;
         int to = Math.min((position + 1) * ITEMS_PER_PAGE, mModules.size());
-        Log.d(TAG,"getting page from: " + Integer.toString(from) + "to: " + Integer.toString(to) + "page number: " + Integer.toString(position));
+        Log.d(TAG, "getting page from: " + Integer.toString(from) + "to: " + Integer.toString(to) + "page number: " + Integer.toString(position));
         if (!(from < to)) {
             return null;
         }

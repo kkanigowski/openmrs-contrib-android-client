@@ -3,5 +3,15 @@
 
     <string name="app_name">OpenMRS Android Client</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="login_label">Login</string>
+    <string name="password_label">Password</string>
+    <string name="sign_in_text">Sign in</string>
+    <string name="server_url_hint">Enter the URL address</string>
+    <string name="server_url_empty_error">Server URL can\'t be empty</string>
+    <string name="login_or_password_empty">Login and password can\'t be empty</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="processing">Processing...</string>
+    <string name="please_wait">Please wait.</string>
 
 </resources>
